@@ -1,0 +1,16 @@
+runmode = "debug"   # 开发模式, debug, release, test
+
+[dbservers]
+    [dbservers.db]
+    host = "127.0.0.1"
+    port = 5432
+    dbname = "db"
+    user = "test"
+    password = "test"
+
+
+[redisservers]
+    [redisservers.cajiancache]
+    addr = "127.0.0.1:6379"
+    password = ""
+    db = 0
